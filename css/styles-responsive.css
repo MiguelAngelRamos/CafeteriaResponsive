@@ -1,0 +1,15 @@
+/* 768 para tables y esta dentro de los 800px que vamos a trabajar */
+@media screen and (max-width: 800px) {
+  /* Portada */
+  .titulo {
+    font-size: 45px;
+  }
+  .title-a {
+    font-size: 18px;
+  }
+  .portada {
+    height: auto;
+  }
+  /* fin de Portada */
+
+}
