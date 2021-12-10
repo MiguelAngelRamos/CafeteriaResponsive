@@ -1,4 +1,4 @@
-/* Tablas */
+/* INICIO DE TABLET */
 
 /* 768 para tables y esta dentro de los 800px que vamos a trabajar */
 @media screen and (max-width: 800px) {
@@ -53,4 +53,68 @@
   }
   /* Fin de Cafes*/
 
+}
+
+/* FIN DE TABLET */
+
+/* Cualquier dimension que sea inferior a 767 vamos a cambiar al footer*/
+
+@media screen and (max-width: 767px) {
+  /* footer */
+  textarea {
+    width: 100%;
+  }
+  .footer .contenedor {
+    display: block;
+  }
+
+  .footer img {
+    width: 250px;
+  }
+  .contacto {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .generos label {
+    font-size: 16px;
+  }
+
+  .intereses label {
+    display: block;
+    font-size: 16px;
+  }
+
+  .formulario {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .formulario .button {
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.24);
+  }
+
+  .col1 {
+    margin: 0;
+  }
+
+  /* selectores de atributo*/
+  input[type="text"],
+  input[type="email"] {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    zoom: 1.5;
+  }
+
+
+  /* fin del footer */
 }
